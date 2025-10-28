@@ -74,6 +74,7 @@ npx prisma init --datasource-provider sqlserver
 npm i dotenv
 ```
 Inside `prisma.config.ts`, add the line: `import "dotenv/config";`
+
 4. Create your models in `prisma/schema.prisma`, example:
 ```
 model User {
